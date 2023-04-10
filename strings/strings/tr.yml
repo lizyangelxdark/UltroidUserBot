@@ -7,14 +7,19 @@ authors:
 #commons
 com_1: "`İşleniyor...`"
 com_2: "`Aranıyor...`"
+com_3: "`Geçersiz Giriş`"
+com_4: "`UnSupported Media..`"
+com_5: "İndiriliyor..."
+com_6: "Yükleniyor..."
+com_7: "`Bir şeyler ters gitti.`"
 
 #help
 help_1: "`{}` plugin bulunamadı!"
-help_2: "'Bot satır içi sorguya yanıt vermedi.\n{}restart ile yeniden deneyin` "
-help_3: "` Lütfen botunuz için satır içi modu açın ' @Botfather."
+help_2: "`Bot satır içi sorguya yanıt vermedi.\n{}restart ile yeniden deneyin`"
+help_3: "`Lütfen botunuz için satır içi modu açın.`\n@Botfather."
 
 #autopic
-autopic_1: "Bana bir yazı gönder."
+autopic_1: "Lütfen bir metin gönderin."
 autopic_2: "`{} 'İçin Sonuç bulunamadı"
 autopic_3: "Aramanızla ilgili bir Koleksiyon '{}' var!\n Autopic'i başlatıyorum!"
 
@@ -42,10 +47,10 @@ afk_5: "`Artık AFK'yım.`\n\n **Sebebi:** `{}`"
 afk_6: "Artık AFK'yım."
 
 #bot
-alive_1: "**Ultroid UserBot...**\n\n **{}**\n\n ┏━━━━━━━━━━━━━━━━━━━━━\n ┣ **Botun Sahibi** - `{}`\n ┣ **Sürüm** - `{}`\n ┣ **Çalışma Süresi** - `{}`\n ┣ **Python** - `{}`\n ┣ **Telethon** - `{}`\n ┣ **Branch** - `{}`\n ┗━━━━━━━━━━━━━━━━━━━━━"
-log: "**Heroku** Ultroid Günlükleri.\n[Buraya]({}) da yapıştırıldı!"
+alive_1: "**Ultroid UserBot...**\n\n**{}**\n\n**Sahip** - `{}`\n**Ultroid** - `{}`\n**Py-Ultroid** - `{}`\n**Çalışma Süresi** - `{}`\n**Python** - `{}`\n**Telethon** - `{}`\n**Branch** - `{}`"
+log: "**Heroku**\n**Ultroid Günlükleri.**\n**[Buraya]({})**"
 ping: "**Pong !!** `{}ms`\n**Çalışma Süresi** - `{}`"
-usage: "**⚙️ Dyno Kullanımı ⚙️**:\n\n -> **{}** İçin Kullanılmış Dyno Süresi:\n •  `{}`**saat**  `{}`**dakika** **|**  [`{}`**%**]\n\n -> `Bu Ay İçin Kalan Dyno süresi`:\n •  `{}`**saat**  `{}`**dakika** **|**  [`{}`**%**]\n\n **Toplam Disk Alanı: {}\n\n** **Kullanılmış: {}  Bedava: {}\n\n** **📊Veri Kullanımı📊\n\nYükleme: {}\nİndirme: {}\n\n** **CPU: {}%\nRAM: {}%\nDISK: {}%**"
+usage: "**Dyno Kullanımı:\n\n• {} İçin Kullanılmış Dyno Süresi:\n•** `{}`**saat**  `{}`**dakika |  [**`{}`**%]\n\n• Bu Ay İçin Kalan Dyno süresi:\n •**  `{}`**saat**  `{}`**dakika** **|**  [{}%]\n\n• **Toplam Disk Alanı:** `{}`\n\n**• Kullanılmış: `{}`\n**• Bedava:** `{}`\n\n**• Veri Kullanımı:\n\n• Yükleme:** `{}`\n**• İndirme:** `{}`\n\n**• CPU:** `{}`%\n**• RAM:** `{}`%\n** •DISK:** `{}`%"
 shutdown: "Güle güle {}.\n`Kapatılıyor...`"
 
 #broadcast
